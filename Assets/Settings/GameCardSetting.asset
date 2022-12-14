@@ -15,7 +15,7 @@ MonoBehaviour:
   _cardPrefab: {fileID: 7067224667212213645, guid: 50138e81c2153464a9bd13efce33e5b5, type: 3}
   _animationSpeed: 8
   _cardHitDelay: 0.5
-  _radius: 200
+  _radius: 175
   _minCardStartHealthValue: 5
   _maxCardStartHealthValue: 10
   _minCardHitValue: -2

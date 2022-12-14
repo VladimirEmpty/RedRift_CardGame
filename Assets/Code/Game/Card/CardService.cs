@@ -31,8 +31,6 @@ namespace Code.Game.Card
             cardUI.AddCardButton.onClick.AddListener(AddCardInHand);
             cardUI.RemoveCardButton.onClick.AddListener(RemoveRandomCardInHand);
             cardUI.FireCardButton.onClick.AddListener(ExecuteCardFire);
-
-            StartCreateCardInHand();
         }
 
         public CardUI CardUI { get; }

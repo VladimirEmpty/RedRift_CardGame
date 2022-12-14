@@ -20,7 +20,7 @@ namespace Code.Game
         private void Start()
         {
             var cardService = new CardService(_cardUI, _cardHandView, _gameCardSetting);
-            //cardService.StartCreateCardInHand();
+            cardService.StartCreateCardInHand();
         }
 
     }

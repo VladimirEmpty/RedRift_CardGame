@@ -52,11 +52,7 @@ namespace Code.Game.Card.State
         private void HitNextCard()
         {
             _currentAwaitCount--;
-            if(_cardQueue == null | _currentAwaitCount <= 0) return;
-
-            Debug.Log(_currentAwaitCount);
-            Debug.Log(GetHashCode());
-            
+            if(_cardQueue == null | _currentAwaitCount <= 0) return;            
 
             var card = _cardQueue.Dequeue();
             _currentCardViewDecorator = new CardViewHitDecorator(card);
