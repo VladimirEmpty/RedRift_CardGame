@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Card
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a2e9405065092374c87f35afbb2d1f5e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2de1561205481534d9561da2ad9fa51f, type: 3}
+  - {fileID: 21300000, guid: 8bf9c178e27049d46a018de487ca66b2, type: 3}
+  - {fileID: 21300000, guid: 521aa819c75c859429d32e65fb4932c7, type: 3}
+  - {fileID: 21300000, guid: 3611fcdb27136964cb4c4d853ca3195e, type: 3}
+  - {fileID: 21300000, guid: 397e081df471f07429dba1def20492e8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - CardBG
+  - Card
+  - Group 91
+  - CardDescriptionImage
+  - CardSelectedBG
+  m_RenderDataMap: {}
+  m_Tag: Card
+  m_IsVariant: 0
